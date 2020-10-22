@@ -1,0 +1,31 @@
+/*CSS do projeto 
+
+Regras
+
+Px = fixo
+16px = 1em = 1rem (root element)
+10px=62.5%
+!important = deixa o valor sobreposto
+
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    color: white;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body, imput, button, textarea{
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    /*font: 400 18px/1 'Nunito', sans-serif;*/
+}
+
